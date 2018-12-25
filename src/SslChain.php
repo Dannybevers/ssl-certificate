@@ -81,6 +81,11 @@ class SslChain
     {
         return $this->hash;
     }
+    
+    public function getIssuer(): array
+    {
+        return $this->issuer;
+    }
 
     public function getIssuerLocationName(): string
     {
